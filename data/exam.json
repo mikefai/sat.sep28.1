@@ -1,0 +1,49 @@
+{
+  "title": "Digital SAT Mock Exam",
+  "form": "28.2",
+  "edition": "International edition",
+  "breakMinutes": 10,
+  "breakAfter": "rw2",
+  "modules": [
+    {
+      "id": "rw1",
+      "sequence": 1,
+      "section": "Reading and Writing",
+      "module": 1,
+      "minutes": 32,
+      "questions": 27,
+      "file": "modules/rw-m1.json",
+      "endMessage": "--- END OF MODULE 1 --- Take your scheduled break. Type 'continue' when ready for Module 2."
+    },
+    {
+      "id": "rw2",
+      "sequence": 2,
+      "section": "Reading and Writing",
+      "module": 2,
+      "minutes": 32,
+      "questions": 27,
+      "file": "modules/rw-m2.json",
+      "endMessage": "--- END OF MODULE 2 --- Take your scheduled break. Type 'continue' when ready for Module 3."
+    },
+    {
+      "id": "m1",
+      "sequence": 3,
+      "section": "Math",
+      "module": 1,
+      "minutes": 35,
+      "questions": 22,
+      "file": "modules/math-m1.json",
+      "endMessage": "--- END OF MODULE 3 --- Take your scheduled break. Type 'continue' when ready for Module 4."
+    },
+    {
+      "id": "m2",
+      "sequence": 4,
+      "section": "Math",
+      "module": 2,
+      "minutes": 35,
+      "questions": 22,
+      "file": "modules/math-m2.json",
+      "endMessage": "--- END OF MODULE 4 --- All four modules are complete. Type 'continue' for the scoring guide, post-test analysis, and pacing card."
+    }
+  ]
+}

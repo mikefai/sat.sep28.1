@@ -1,0 +1,7 @@
+# Local agent/tooling state
+.remember/
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
